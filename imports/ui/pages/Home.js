@@ -1,8 +1,12 @@
 import * as React from 'react';
-import Page from '../components/Page';
+import {
+    Page,
+    Carousel,
+} from '../components/common';
 
 const Home = (props) => (
     <Page title="Home">
+        <Carousel />
         Homepage
     </Page>
 );

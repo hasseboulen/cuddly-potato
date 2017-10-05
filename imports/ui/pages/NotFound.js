@@ -1,5 +1,7 @@
 import * as React from 'react';
-import Page from '../components/Page';
+import {
+    Page,
+} from '../components/common';
 
 const NotFound = (props) => (
     <Page title="Not found, 404">

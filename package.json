@@ -20,23 +20,22 @@
     "babel-core": "6.25.0",
     "babel-eslint": "7.2.3",
     "babel-runtime": "^6.20.0",
-
     "bcrypt": "^1.0.2",
     "bcryptjs": "^2.4.3",
-    "moment": "^2.18.1",
     "classnames": "^2.2.5",
     "history": "^3.0.0",
+    "moment": "^2.18.1",
     "react": "^15.3.0",
+    "react-bootstrap": "^0.31.3",
     "react-dom": "^15.3.0",
     "react-komposer": "^2.0.0",
-    "react-router-dom": "^4.0.0-beta.6",
     "react-notification-system": "^0.2.15",
-
+    "react-router-dom": "^4.0.0-beta.6",
+    "react-slick": "^0.15.4",
     "simpl-schema": "^0.2.3",
     "uniforms": "^1.20.0",
     "uniforms-bootstrap3": "^1.20.0"
   },
-
   "devDependencies": {
     "eslint": "3.19.0",
     "eslint-config-react-app": "^1.0.5",
@@ -45,7 +44,6 @@
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "5.0.3",
     "eslint-plugin-react": "7.1.0",
-
     "babel-cli": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.56.0"
