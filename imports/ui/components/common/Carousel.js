@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Slider from 'react-slick';
+import Skin from './Skin';
 
 const settings = {
 	autoplay: true,
@@ -10,14 +11,9 @@ const settings = {
 	slidesToScroll: 3,
 };
 
-const Carousel = () => (
+const Carousel = ({slides=[]}) => (
 	<Slider {...settings}>
-		<div>slide 1</div>
-		<div>slide 2</div>
-		<div>slide 3</div>
-		<div>slide 4</div>
-		<div>slide 5</div>
-		<div>slide 6</div>
+		{slides.map(slide => <div key={slide._id}><Skin {...slide} /></div>)}
 	</Slider>
 );
 
