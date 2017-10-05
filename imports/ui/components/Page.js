@@ -1,8 +1,9 @@
 import * as React from 'react';
+import PageTitle from './PageTitle';
 
 const Page = ({children, title}) => {
 	return (<div>
-		<h2>{title}</h2>
+		<PageTitle title={title} />
 		{children}
 	</div>);
 };

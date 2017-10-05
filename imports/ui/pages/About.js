@@ -1,10 +1,10 @@
 import * as React from 'react';
 import Page from '../components/Page';
 
-const Home = (props) => (
-    <Page title="Home">
-        Homepage
+const About = (props) => (
+    <Page title="About">
+        About
     </Page>
 );
 
-export default Home;
+export default About;
