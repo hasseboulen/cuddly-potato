@@ -1,0 +1,7 @@
+[include]
+.*/imports/**
+.*/node_modules/react-bootstrap/**
+
+[ignore]
+.*/node_modules/**
+.*/.meteor/**
